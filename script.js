@@ -3,7 +3,7 @@ let fahrenheit = document.querySelector("fahrenheit");
 let kelvin = document.querySelector("kelvin");
 
 let computeTemp = (event) => {
-    let cureentVal = event.target.value;
+    let cureentVal = +event.target.value;
     
     switch(event.target.name) {
         case "celsius":
